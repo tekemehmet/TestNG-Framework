@@ -2,26 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0badd29e-9505-481e-9808-8cd7492bc544" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/credentials.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drivers/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drivers/msedgedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/guru99/pages/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/guru99/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/guru99/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commonLibs/implementation/CommonDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commonLibs/implementation/ElementControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/coursera/IntegrationWithSelenium/BaseClass.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/coursera/IntegrationWithSelenium/TestClass.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/coursera/TestNGPriorityExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/coursera/TestingTestNG.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testNG_Project_coursera.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commonLibs/utils/ConfigUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commonLibs/utils/ReportUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commonLibs/utils/ScreenshotUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/guru99/tests/BaseTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/guru99/tests/LoginTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testXMLFiles/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivers/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/drivers/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/guru99/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guru99/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/commonLibs/implementation/CommonDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/commonLibs/implementation/CommonDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/coursera/IntegrationWithSelenium/BaseClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/coursera/IntegrationWithSelenium/TestClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/coursera/TestNGPriorityExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/coursera/TestingTestNG.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,19 +41,41 @@
     </option>
   </component>
   <component name="ProjectId" id="1i0bmWoYRxa7CipGghWeYAl8dTH" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Fall2019_Selenium" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/drivers" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="TestNG.TestClass">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tekem\IdeaProjects\testNG_Project_coursera\drivers" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tekem\IdeaProjects\testNG_Project_coursera\testXMLFiles" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Users/tekem/IdeaProjects/testNG_Project_coursera/testXMLFiles/testng.xml">
+    <configuration name="C:/Users/tekem/IdeaProjects/testNG_Project_coursera/testXMLFiles/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testNG_Project_coursera" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testXMLFiles/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestClass" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG_Project_coursera" />
       <extension name="coverage">
@@ -128,31 +145,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestingTestNG.testcase2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testNG_Project_coursera" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.coursera.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.coursera" />
-      <option name="MAIN_CLASS_NAME" value="com.coursera.TestingTestNG" />
-      <option name="METHOD_NAME" value="testcase2" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/tekem/IdeaProjects/testNG_Project_coursera/testXMLFiles/testng.xml" />
         <item itemvalue="TestNG.TestClass" />
         <item itemvalue="TestNG.TestNGPriorityExample" />
         <item itemvalue="TestNG.TestingTestNG.testcase1" />
         <item itemvalue="TestNG.TestingTestNG" />
-        <item itemvalue="TestNG.TestingTestNG.testcase2" />
       </list>
     </recent_temporary>
   </component>
@@ -169,30 +168,41 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1601059974790">
+    <state x="361" y="71" key="#Project_Structure" timestamp="1601173331496">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1601059974790" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1601047775231">
+    <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1601173331496" />
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1601174667459">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1601047775231" />
-    <state width="1493" height="191" key="GridCell.Tab.0.bottom" timestamp="1601075348654">
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1601174667459" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1601171648383">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="191" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601075348654" />
-    <state width="1493" height="191" key="GridCell.Tab.0.center" timestamp="1601075348654">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1601171648383" />
+    <state width="1493" height="182" key="GridCell.Tab.0.bottom" timestamp="1601175870147">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="191" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601075348654" />
-    <state width="1493" height="191" key="GridCell.Tab.0.left" timestamp="1601075348654">
+    <state width="1493" height="182" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601175870147" />
+    <state width="1493" height="182" key="GridCell.Tab.0.center" timestamp="1601175870147">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="191" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601075348654" />
-    <state width="1493" height="191" key="GridCell.Tab.0.right" timestamp="1601075348654">
+    <state width="1493" height="182" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601175870147" />
+    <state width="1493" height="182" key="GridCell.Tab.0.left" timestamp="1601175870147">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="191" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601075348654" />
+    <state width="1493" height="182" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601175870147" />
+    <state width="1493" height="182" key="GridCell.Tab.0.right" timestamp="1601175870147">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="182" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601175870147" />
+    <state x="277" y="55" key="SettingsEditor" timestamp="1601171658679">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1601171658679" />
   </component>
 </project>

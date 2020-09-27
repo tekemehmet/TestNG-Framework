@@ -17,6 +17,7 @@ public class CommonDriver {
     private String currentWorkingDirectory;
 
     public WebDriver getDriver() {
+
         return driver;
     }
 
@@ -26,6 +27,15 @@ public class CommonDriver {
 
     public void setElementDetectionTimeout(int elementDetectionTimeout) {
         this.elementDetectionTimeout = elementDetectionTimeout;
+    }
+
+    public void closeAllBrowser(){
+
+        driver.quit();
+    }
+
+    public String getTitleOfThePage(){
+        return driver.getTitle();
     }
 
     public CommonDriver(String browserType) throws Exception {
